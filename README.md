@@ -19,5 +19,5 @@ Update the alias configurations in `vite.config.mts` and `tsconfig.json` if need
 To run the unit tests, execute the following command in the `<shopware_root>/custom/plugins/{YourPluginName}/src/Resources/app/administration` directory:
 
 ```bash
-npm run jest
+npm run test
 ```
