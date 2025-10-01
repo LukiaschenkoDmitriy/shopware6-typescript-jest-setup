@@ -21,3 +21,11 @@ To run the unit tests, execute the following command in the `<shopware_root>/cus
 ```bash
 npm run test
 ```
+
+## Testing Vue Components
+
+To test Vue components, you can import `shallowMount` from `@vue/test-utils` using the defined alias `@ShopwareNode`. The import statement looks like this:
+
+```javascript
+import { shallowMount } from '@ShopwareNode/@vue/test-utils';
+```
