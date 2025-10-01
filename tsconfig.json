@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noImplicitThis": false,
+    "esModuleInterop": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ShopwareNode/*": ["../../../../../../../vendor/shopware/administration/Resources/app/administration/node_modules/*"],
+      "@ShopwareSrc/*": ["../../../../../../../vendor/shopware/administration/Resources/app/administration/src/*"],
+      
+      // Your aliases
+    },
+    "lib": ["dom", "es2016"]
+  }
+}
